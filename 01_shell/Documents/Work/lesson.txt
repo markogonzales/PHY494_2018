@@ -1,0 +1,8 @@
+computers are tools
+the shell is powerful
+basic shell commands: pwd, cd, ls
+
+cp copy file 
+mv movie to anther directory
+rmdir remove directory
+rm remove file rm -r remove recursively 

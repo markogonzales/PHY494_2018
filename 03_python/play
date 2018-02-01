@@ -1,0 +1,18 @@
+# hello world in python
+name = input("what's your name? -->")
+if name == 'Ian':
+  answer = input("Is your name Ian? Yes or No? -->")
+  if answer == 'Yes':
+    print("Loosen your shoes." )
+  if answer == 'No':
+    new_name = input("What is your name then?")
+    print("Are your shoes too tight?")
+    question = input("Yes, No, or Maybe? -->")
+    if question == 'Maybe':
+      print("You should know!")
+    if question == 'No':
+      print("Well then... Fuck off")
+    if question == 'Yes':
+      print("Loosen them,",new_name)
+else:
+  print("Hello,",name,", it's great to see you here.")
